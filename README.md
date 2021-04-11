@@ -1,4 +1,4 @@
-# dsft01-section2-solo-project
+# ML-Basic-Prediction-using-Insurance-Data
 
 ### 1. 문제정의 및 프로젝트 목적 소개
 - 본 프로젝트의 목적은 미국의 한 건강보험 가입자 38만여명의 고객데이터를 바탕으로 아래의 2가지 솔루션을 찾는 것에 있습니다.
