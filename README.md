@@ -59,7 +59,7 @@ PDP는 데이터 집합의 전체적 경향을 보여주고, Shap value는 개�
 - 본 프로젝트에서는 빠른 시일 내 앙상블 모델을 비교하고, XAI 라이브러리(PDP, SHAP)로 해석하는 것에 중심을 두어 데이터 EDA, 특성공학 부분이 보완될 필요가 있음. 
 - 특히, 독립특성들과 타겟의 관계를 살펴보는 Correlation Coefficients, Permutation Importance 등의 시각화를 추가할 예정.
 ---
-## [Update(21.1.18)](https://github.com/journey101/Insurance-Prediction-Using-ML/blob/main/ML-Prediction-Using-Insurance-Data-update.ipynb)
+## [Update(21.1.18)](https://github.com/journey101/Insurance-Prediction-Using-ML/blob/main/Insurance-Prediction-Using-ML.ipynb)
 **1. Data EDA & Preprocessing**
 - (1) 타겟과 독립특성 상관관계 시각화 추가
 - (2) 불균형 클래스 문제로 undersampling 사용
@@ -82,3 +82,4 @@ PDP는 데이터 집합의 전체적 경향을 보여주고, Shap value는 개�
 ※향후 업데이트할 계획
 - best_model 저장해놓기...(다음에 사용할 때 다시 학습할 필요 없도록...) 
 - XAI 시각화+인사이트 추가로 더 뽑기 (검증 샘플별 사례별로 정리해보기) 
+- 조금 남겨놨던 검증셋으로 auc-score 계산하여 GridSearchCV 에서 나온best_score와 비교해보니 스코어가 떨어지는 것으로 보아 과적합을 완전히 해결할 수 있다고 장담할 수는 없을 듯 한데.. 이 부분에 대한 솔루션 고민해보기.
