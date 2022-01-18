@@ -1,4 +1,4 @@
-# ML-Prediction-using-Insurance-Data
+# Insurance-Prediction-Using-Machine-Learning
 
 ### 1. 문제정의 및 프로젝트 목적 소개
 본 프로젝트의 목적은 미국의 한 건강보험 가입자 38만여명의 고객데이터를 바탕으로 아래의 2가지 솔루션을 찾는 것에 있습니다.
@@ -58,3 +58,18 @@ PDP는 데이터 집합의 전체적 경향을 보여주고, Shap value는 개�
 **<한계점 및 보완할 사항>**
 - 본 프로젝트에서는 빠른 시일 내 앙상블 모델을 비교하고, XAI 라이브러리(PDP, SHAP)로 해석하는 것에 중심을 두어 데이터 EDA, 특성공학 부분이 보완될 필요가 있음. 
 - 특히, 독립특성들과 타겟의 관계를 살펴보는 Correlation Coefficients, Permutation Importance 등의 시각화를 추가할 예정.
+---
+## Update(21.1.19)
+**1. Data EDA & Preprocessing**
+- (1) 타겟과 독립특성 상관관계 시각화 추가
+- (2) 불균형 클래스 문제로 undersampling 사용
+
+**2. Modeling**
+- (1) 평가지표: ROC-AUC 스코어 성능개선 (기존 best_model성능: 0.70, 수정 best_model성능: 0.85)
+- (2) 과적합 문제 최소화하기 위해 GridSearchCV 사용
+- (3) 머신러닝 알고리즘은 RandomForest만 사용 (boosting모델은 다음 실험에서 적용해보기로 결정) 
+
+**3. XAI 시각화**
+- (1) permutation importance 로 성능에 가장 영향을 미치는 독립특성들 순위 시각화
+- (2) shap.force_plot 으로 검증 샘플별 예측에 가장 크게 기여한 독립특성들 확인하는 시각화
+- (3) shap.summary_plot 으로 검증셋 예측에 가장 크게 기여한 독립특성들 순위 시각화 
