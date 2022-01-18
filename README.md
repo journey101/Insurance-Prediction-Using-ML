@@ -59,7 +59,7 @@ PDP는 데이터 집합의 전체적 경향을 보여주고, Shap value는 개�
 - 본 프로젝트에서는 빠른 시일 내 앙상블 모델을 비교하고, XAI 라이브러리(PDP, SHAP)로 해석하는 것에 중심을 두어 데이터 EDA, 특성공학 부분이 보완될 필요가 있음. 
 - 특히, 독립특성들과 타겟의 관계를 살펴보는 Correlation Coefficients, Permutation Importance 등의 시각화를 추가할 예정.
 ---
-## Update(21.1.19)
+## [Update(21.1.18)](https://github.com/journey101/Insurance-Prediction-Using-ML/blob/main/ML-Prediction-Using-Insurance-Data-update.ipynb)
 **1. Data EDA & Preprocessing**
 - (1) 타겟과 독립특성 상관관계 시각화 추가
 - (2) 불균형 클래스 문제로 undersampling 사용
@@ -71,5 +71,14 @@ PDP는 데이터 집합의 전체적 경향을 보여주고, Shap value는 개�
 
 **3. XAI 시각화**
 - (1) permutation importance 로 성능에 가장 영향을 미치는 독립특성들 순위 시각화
+![image](https://user-images.githubusercontent.com/70046278/149968848-26e5fdca-d72c-419b-9ca8-70ce747a6dd6.png)
+
 - (2) shap.force_plot 으로 검증 샘플별 예측에 가장 크게 기여한 독립특성들 확인하는 시각화
+![image](https://user-images.githubusercontent.com/70046278/149969176-26b33838-a05a-42bd-a82c-55391f7fcd3e.png)
+
 - (3) shap.summary_plot 으로 검증셋 예측에 가장 크게 기여한 독립특성들 순위 시각화 
+![image](https://user-images.githubusercontent.com/70046278/149968707-49a7639b-5b68-4edc-aabd-455625240642.png)
+
+※향후 업데이트할 계획
+- best_model 저장해놓기...(다음에 사용할 때 다시 학습할 필요 없도록...) 
+- XAI 시각화+인사이트 추가로 더 뽑기 (검증 샘플별 사례별로 정리해보기) 
