@@ -59,7 +59,7 @@ PDP는 데이터 집합의 전체적 경향을 보여주고, Shap value는 개�
 - 본 프로젝트에서는 빠른 시일 내 앙상블 모델을 비교하고, XAI 라이브러리(PDP, SHAP)로 해석하는 것에 중심을 두어 데이터 EDA, 특성공학 부분이 보완될 필요가 있음. 
 - 특히, 독립특성들과 타겟의 관계를 살펴보는 Correlation Coefficients, Permutation Importance 등의 시각화를 추가할 예정.
 ---
-## Update(21.1.18)
+## [Update(21.1.18)](https://github.com/journey101/Insurance-Prediction-Using-ML/blob/main/ML-Prediction-Using-Insurance-Data-update.ipynb)
 **1. Data EDA & Preprocessing**
 - (1) 타겟과 독립특성 상관관계 시각화 추가
 - (2) 불균형 클래스 문제로 undersampling 사용
