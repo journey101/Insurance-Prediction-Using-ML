@@ -122,7 +122,7 @@
 - 위 데이터에서는 판매채널에 대한 정보 및 판매정책들이 상세하게 나와있지 않기 때문에 좀 더 심층적인 마케팅 인사이트는 뽑을 수 없었습니다만, 실제 현업에서는 판매채널별/지역별 상세 정보 등을 추가로 분석해 더 뾰족한 마케팅 인사이트를 얻을 수 있을 것으로 판단됩니다.
 
 ---
-## [Update(22.2.24)](https://github.com/journey101/Insurance-Prediction-Using-ML/blob/main/Insurance-Prediction-Using-ML.ipynb)
+## [Update(22.2.24)](https://github.com/journey101/Insurance-Prediction-Using-ML/blob/main/Insurance-Prediction-Using-ML(update).ipynb)
 **1. Data EDA & Preprocessing**
 - (1) 타겟과 독립특성 상관관계 시각화 추가
 - (2) 불균형 클래스 문제로 undersampling 사용
