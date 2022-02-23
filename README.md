@@ -32,7 +32,7 @@
 1) 범주형 데이터 인코딩: Ordinal Encoding 사용. 
 - Ordinal Encoding 사용이유: 트리모델 사용할 예정으로 One-hot encoding에 비해 데이터 손실이 적고, 속도가 빠르기 때문.
 
-2) 특성 공학: 운전면허 있고, 차보험 없는 고객데이터만 선별.
+2) 데이터 선별: 운전면허 있고, 차보험 없는 고객데이터만 선별.
  
 3) 타겟 불균형 문제 해결: class-weight 조정한 방법과 under sampling 적용한 방법 비교
 
