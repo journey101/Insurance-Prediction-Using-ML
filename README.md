@@ -136,7 +136,6 @@
 
 - (1) permutation importance 로 성능에 가장 영향을 미치는 독립특성들 순위 시각화
 - (2) shap.force_plot 으로 검증 샘플별 예측에 가장 크게 기여한 독립특성들 확인하는 시각화
-![image](https://user-images.githubusercontent.com/70046278/149969176-26b33838-a05a-42bd-a82c-55391f7fcd3e.png)
 - (3) shap.summary_plot 으로 검증셋 예측에 가장 크게 기여한 독립특성들 순위 시각화 
 
 [느낀점&배운점&향후 업데이트 계획]
