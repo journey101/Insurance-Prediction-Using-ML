@@ -12,7 +12,7 @@
 4) 평가지표 선정이유: 타겟이 불균형 클래스 문제를 갖고 있어 positive와 negative를 잘 분류해내는지 판단하는 ROC-AUC score를 평가지표로 사용.
 
 ### 2. 데이터 탐색 및 전처리
-사용한 데이터는 미국의 한 건강보험 가입자 데이터로 데이터 특성 중 'Response(차 보험에 대한 긍정 여부, 1=긍정)' 가 최종적으로 예측하고자 하는 타겟 변수입니다.
+사용한 데이터는 미국의 한 건강보험 가입자 데이터로 데이터 특성 중 'Response(차 보험에 대한 관심 여부, 1:관심있음, 0:)' 가 최종적으로 예측하고자 하는 타겟 변수입니다.
 
 ※[데이터 출처](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction?select=train.csv)
 
