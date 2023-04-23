@@ -145,7 +145,7 @@
 배운점은 크게 2가지였습니다. 
  - (1) 불균형 데이터 처리법: imblearn pipeline, undersampling 을 GridSearchCV와 같이 사용하는 법. 
  - (2) ROC-AUC-score 의미를 제대로 이해함: 모델이 0과 1을 어느정도로 명확하게 구분할 수 있는지 보여주는 지표로 높을수록 명확하게 구분함. 
-
-향후 업데이트 계획은, 
- - (1) XAI 시각화+인사이트 추가로 더 뽑기 (검증 샘플별 사례별로 정리해보기)
- - (2) 앙상블 모델 간 비교, 하이퍼파라미터 튜닝 등
+ - (3) 언더샘플링(undersampling)과 오버샘플림(oversampling) 차이와 장단점. 
+  - 언더샘플림: 과대 클래스 정보를 덜 사용하는 방법, False Positive를 줄이고 True Positive를 높여 Precision을 높이는데 좋음. 
+  - 오버샘플링: 소수 클래스 정보를 더 많이 사용하는 방법, False Negative를 줄이고 True Positive를 높여 Recall을 높이는데 좋음.
+  - 해당 문제에서는 언더샘플림보다는 오버샘플링을 통해 실제 True인 사람들 중 예측 결과값의 비율을 높이는 측면이 좋았을 수 있다는 생각. 왜냐하면 False Positive 로 인해 마케팅 비용이 잘못 사용되는 경우보다, True Positive를 더 많이 찾아내서 매출 상승을 극대화하는 것이 더 이윤이 될 수 있기 때문. 
