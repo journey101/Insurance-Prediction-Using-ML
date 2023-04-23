@@ -145,7 +145,8 @@
 배운점은 크게 2가지였습니다. 
  - (1) 불균형 데이터 처리법: imblearn pipeline, undersampling 을 GridSearchCV와 같이 사용하는 법. 
  - (2) ROC-AUC-score 의미를 이해함: 모델이 0과 1을 어느정도로 명확하게 구분할 수 있는지 보여주는 지표로 높을수록 명확하게 구분함. 
-   - 다만, 해당 프로젝트에서 양성 클래스의 수가 더 적기 때문에 f1-score를 평가지표로 고려했다면 더 좋았을 듯 함.
+   - 다만, 해당 프로젝트에서 양성 클래스의 수가 더 적고 양성 클래스를 맞추는 것을 목표로 삼고, f1-score를 평가지표로 고려했다면 더 좋았을 듯 함.
+   - 물론 ROC-AUC스코어로 0과 1을 모두 잘 분류할 수 있는 모델을 지향한다면 ROC-AUC스코어를 높이고, 최적임계점을 적용하는 것도 좋을 것. 
  - (3) 언더샘플링(undersampling)과 오버샘플림(oversampling) 차이와 장단점. 
    - 언더샘플림: 과대 클래스 정보를 덜 사용하는 방법, False Positive를 줄이고 True Positive를 높여 Precision을 높이는데 좋음. 
    - 오버샘플링: 소수 클래스 정보를 더 많이 사용하는 방법, False Negative를 줄이고 True Positive를 높여 Recall을 높이는데 좋음.
