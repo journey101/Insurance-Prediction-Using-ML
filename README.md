@@ -1,4 +1,4 @@
-# Insurance-Prediction
+# Insurance-Prediction-For-Imbalanced-Targetclass
 
 ### 1. 프로젝트 목적 및 문제정의
 1) 프로젝트 목적
